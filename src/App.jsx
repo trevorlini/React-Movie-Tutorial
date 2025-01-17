@@ -1,14 +1,12 @@
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
+  const movieNumber = 1
+
   return (
     <>
-      <div>
-        <p>Hello World</p>
-      </div>
-      <div>
-        <p>Hello World</p>
-      </div>
+      <Home />
     </>
   );
 }
